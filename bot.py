@@ -17,7 +17,7 @@ def start(message):
                      "Assalomu alaykum!\nStabilizator do'koniga xush kelibsiz 👋", 
                      reply_markup=markup)
 
-@bot.message_handler(func=lambda message: message.text == "🛍 Mahsulotlar")
+@bot.message_handler(func=lambda message: message.text == "📦 Mahsulotlar")
 def products(message):
 markup = types.ReplyKeyboardMarkup(resize_keyboard=True)
 btn1 = types.KeyboardButton("🔹 ANDELI Laterni")
